@@ -1,0 +1,154 @@
+body{
+    margin :0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #edffff;
+}
+ ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    position: relative;
+    top: 100px;
+ }
+.card{
+    width: 350px;
+    height: 250px;
+    list-style: none;
+    margin: 10px;
+    padding: 10px 10px;
+    background-color: rgb(122, 122, 222);
+}
+.card_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.card_name > span{
+ font-size: 10px;
+ 
+}
+.card_total{
+  font-size: 35px;
+  font-weight: bold;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    width: 352px;
+    height: 252px;
+   background-color: blueviolet;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.card_inner{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px; 
+  color: white;
+ font-weight: bold;
+}
+ul>:nth-child(1){
+ background-color: red;
+}
+ul>:nth-child(2){
+ background-color: blue;
+}
+ul>:nth-child(3){
+ background-color: green;
+}
+ul>:nth-child(4){
+ background-color: orange;
+}
+ul>:nth-child(5){
+ background-color: indigo;
+}
+ul>:nth-child(6){
+ background-color: violet;
+}
+
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }

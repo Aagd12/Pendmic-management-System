@@ -1,0 +1,217 @@
+body{
+    text-decoration: none;
+}
+.contact{
+    position: relative;
+    /* min-height: 10vh; */
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    background-size: cover;
+    text-decoration: none;
+}
+.home{
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    height: 35vh;
+    background: deepskyblue;
+    position: relative;
+	top: 65px;
+}
+.home h1{
+    font-size: 70px;
+    color: #fff;
+    font: bold;
+    align-items: center;
+    text-align: center;
+}
+.home p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 500;
+    /* color: #fff; */
+}
+.contact .content p{
+    font-weight: 300;
+    /* color: #fff; */
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    background: #fff;
+}
+
+.container .contactInfo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(88, 222, 226); */
+    position: relative;
+    top: 0;
+}
+.container .contactInfo .box {
+    
+    position: relative;
+    padding: 10px 0px;
+    display: flex;
+    /* border: 2px solid rgb(77, 25, 221);width: 50%; */
+}
+.container .contactInfo .box img{
+    width: 2rem;
+}
+.container .contactInfo h1{
+    font-size: 2rem;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.container .contactInfo p{
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.2rem;
+}
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text {
+    display: flex;
+    
+    margin-left: 20px;
+    font-size: 16px;
+    /* color: #fff; */
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm {
+    width: 35%;
+    padding: 40px;
+    /* background: #fff; */
+    border-radius: 10px;
+} 
+.contactForm form h1{
+    margin: 15px;
+}
+.contactForm form p{
+    font-size: 1.rem;
+    margin:15px;
+}
+.contactForm .inputBox{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contactForm .inputBox input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
+.contactForm .inputBox1 .btn{
+    width: 90px;
+    padding: 8px;
+    margin: 12px;
+    border-radius: 20px;
+    background: rgb(240, 120, 240);
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+.contactForm .inputBox1 .btn:hover{
+    box-shadow: 2px 2px 2px 2px #e7a0f0;
+    background: #00bcd4;
+    transition: ease .5s;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    background: hsl(0, 0%, 43%);
+    color: whitesmoke;
+}
+.foot{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.foot h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.foot p{
+    font-size: 15px;
+    line-height: 35px;
+    color: #cac7d4;
+}
+.footer .social{
+    display: inline-block;
+    background: #fff;
+    align-items: center;
+    justify-content: space-around; 
+    
+}
+
+ .footer .social img{
+    display: flex;
+    width: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    color: #ff9911;
+    cursor: pointer;
+} 
+.footer .social img:hover{
+    color: #ff9911;
+}
+.foot1 h2{
+    margin-bottom: 3rem;
+}
+.footer1 {
+    height: 40px;
+    background-color: #3b3b3b;
+    color: white;
+    justify-content: center;
+    text-align: center;  
+}
+.footer1 > p{
+    padding-top: 13px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none
+
+}
