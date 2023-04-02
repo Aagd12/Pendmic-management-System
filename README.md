@@ -14,7 +14,7 @@ booking vaccination slot and  live case tracker .In future it provides medical g
 
 ## Demo
 
-![Demo](https://i.postimg.cc/4dTqqDHh/covid-4.jpg)
+![Demo](https://i.postimg.cc/L8RjnRgs/covid-4.jpg)
 
 
 
